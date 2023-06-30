@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Bodoni Moda', serif;
+}
+
+body{
+    background-color: #93A889;
+}
+
+
+.listado-usuarios{
+    width: 90%;
+    margin-bottom: 40px;
+    margin-left: 5%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    text-align: center;
+}
+
+.listado-usuarios ul{
+    list-style: none;
+    border: solid 1px black;
+}
+
+.listado-usuarios ul li{
+    border-top: solid 1px black;
+}
+
+#recargarga-usuarios{
+    background-color: rgb(194, 187, 187);
+    width: 100px;
+    height: 30px;
+    padding: 7px;
+    border: none;
+    border-radius: 10px;
+    margin-left: 80%;
+}
+
+
+.aceptar-usuarios{
+    margin-top: 40px;
+    width: 90%;
+    margin-left: 5%;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    text-align: center;
+}
+
+.aceptar-usuarios ul{
+    list-style: none;
+    border: solid 1px black;
+}
+
+.aceptar-usuarios ul li{ 
+    border-top: solid 1px black;
+}
+
+.aceptar-usuarios button{
+    font-size: 1.2rem;
+    margin-top: 18px;
+    height: 40px;
+    margin-left: 20px;  
+    border: none;
+    background-color: #7DE57B;
+    border-radius: 10px;
+}
+.aceptar-usuarios button:last-child{
+    background-color: #D3AF52;
+}

@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda&display=swap');
+
+*{
+    position: calc(cover);
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Bodoni Moda', serif;
+}
+
+body{
+    background-image: url("img/riosecoFondo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+ 
+h1{
+    background-color: greenyellow;
+    position: relative;
+    padding: 0%;
+    margin: 0%;
+}

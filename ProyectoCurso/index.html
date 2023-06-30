@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/LOGO GY(definido).png">
+    <title>Guide You</title>
+
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+        integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+
+    <script>
+        $(function () {
+            $("#contenHeader").load("header.html");
+        });
+        $(function () {
+            $("#contenFooter").load("footer.html");
+        });
+    </script>
+</head>
+
+<body>
+    <div id="container"></div>
+    <header>
+        <div id="contenHeader"></div>
+    </header>
+    
+    <main>
+        <div>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13793.799781238433!2d-63.722366118236174!3d-29.904681131207326!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sar!4v1685988241495!5m2!1ses!2sar"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        <div>
+            <table>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Ubicacion</th>
+                    <th>Categoria</th>
+                    <th>Contacto</th>
+                    <th>Email</th>
+                    <th>Descripcion</th>
+                </tr>
+            </table>
+        </div>
+    </main>
+
+    <footer>
+        <div id="contenFooter"></div>
+    </footer>
+
+    <!-- Solo se ve cuando se selecciona en la tabla -->
+    <a href="establecimiento.html"> Establecimiento </a>
+
+    <!-- Solo se ve cuando el usuario tiene el rol de admin -->
+    <a href="homeAdmin.html"> Admin </a>
+
+
+</body>
+
+
+</html>
