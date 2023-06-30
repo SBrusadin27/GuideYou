@@ -7,4 +7,4 @@ Todo esto es manejado por uno o varios Administradores que tienen a mano distint
 
 Esa seria la idea general de la pagina, pero por cuestiones de tiempo no llegamos a finalizarla y esto es lo que logramos hasta el a fecha 29/06/2023.
 
-Gracias.
+Gracias. 
